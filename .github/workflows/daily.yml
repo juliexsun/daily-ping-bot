@@ -2,8 +2,7 @@ name: Daily Discord Ping
 
 on:
   schedule:
-    - cron: "0 23 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"
 
 jobs:
   send:
