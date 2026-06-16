@@ -11,10 +11,10 @@ async function sendJoke() {
     let content;
 
     if (joke.type === "single") {
-      content = `👓 <:glasses:1515172284665561178> **Joke of the Day**\n\n${joke.joke}`;
+      content = `<:glasses:1515172284665561178> **Joke of the Day**\n\n${joke.joke}`;
     } else {
       content =
-        `👓 <:glasses:1515172284665561178> **Joke of the Day**\n\n` +
+        `<:glasses:1515172284665561178> **Joke of the Day**\n\n` +
         `${joke.setup}\n\n||${joke.delivery}||`;
     }
 
