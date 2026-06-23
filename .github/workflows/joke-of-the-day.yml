@@ -1,8 +1,6 @@
 name: Joke of the Day
 
 on:
-  schedule:
-    - cron: "08 20 * * *"
   workflow_dispatch:
 
 jobs:
