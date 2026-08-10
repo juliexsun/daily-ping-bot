@@ -4,6 +4,6 @@ fetch(webhook, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
-    content: "<@628051595883708446> watch aot"
+    content: "<@628051595883708446> rewatch aot"
   })
 });
